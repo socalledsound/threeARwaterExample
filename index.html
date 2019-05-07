@@ -201,7 +201,7 @@ function initialize()
 	markerRoot1.add( mesh2 );
 	
 	// the invisibility cloak (ring; has circular hole)
-	let geometry0 = new THREE.RingGeometry(1,9, 32);
+	let geometry0 = new THREE.BoxGeometry(10,10, 1);
 	let material0 = new THREE.MeshBasicMaterial({
 		// map: loader.load( 'images/color-grid.png' ), // for testing placement
 		colorWrite: false
